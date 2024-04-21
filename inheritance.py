@@ -12,14 +12,14 @@ class Nissan(Car):
     price = 7000000
 
     def horse_powers(self):
-        return print(f'У Nissan лошадиных сил {self.horsepower}')
+        print(f'У Nissan лошадиных сил {self.horsepower}')
 
 
 class Kia(Car):
     price = 5000000
 
     def horse_powers(self):
-        return print(f'У Kia лошадиных сил {self.horsepower}')
+        print(f'У Kia лошадиных сил {self.horsepower}')
 
 niva = Car(100)
 navara = Nissan(190)
