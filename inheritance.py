@@ -4,8 +4,8 @@ class Car:
     def __init__(self, horsepower = 100):
         self.horsepower = horsepower
 
-    def horse_powers(self, horsepower = 100):
-        return (f'У Car лошадиных сил {self.horsepower}')
+    def horse_powers(self):
+        return f'У Car лошадиных сил {self.horsepower}'
 
 
 class Nissan(Car):
